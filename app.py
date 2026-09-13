@@ -9,7 +9,7 @@ from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import StrOutputParser
 load_dotenv()
 llm=ChatGoogleGenerativeAI(
-  model="gemini-3.5-flash",
+  model="gemini-3.5-flash-lite",
   temperature=0.5
 )
 def get_gemini_response(input_prompt,uploaded_file,user_prompt):
